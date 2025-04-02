@@ -3,8 +3,7 @@ function updateView(){
     <div class="card">
         <h2> Legg igjen Tilbakemelding</h2>
         <div class="stars" id="starContainer">
-         <div class="stars" id="starContainer">
-         ${[1, 2, 3, 4, 5].map(star => 
+          ${[1, 2, 3, 4, 5].map(star => 
             `<span class="star ${model.inputs.ratingForm.rating >= star ? 'active' : ''}" 
                 onclick="setRating(${star})">★</span>`).join('')}
         </div>
