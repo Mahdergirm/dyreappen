@@ -52,7 +52,10 @@ const model = {
         },
         
         messages: {
-            message: null,
+            sender:"",
+            receiver:"",
+            message: "",
+            date:null, 
         },
 
         notifications: {
